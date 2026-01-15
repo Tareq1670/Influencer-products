@@ -4,15 +4,24 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <link rel="stylesheet" href="style/style.css" />
         <link
             rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            crossorigin="anonymous"
         />
+<!-- 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+            rel="stylesheet"
+        /> -->
     </head>
     <body>
         <header>
-            <nav>
-                <div class="navbar_left">Influencer products</div>
+            <nav class="navbar max_width flex_item">
+                <div class="navbar_left"><h2>Influencer products</h2></div>
                 <div class="navbar_right">
                     <a href="">Home</a>
                     <a href="">Products</a>
@@ -23,5 +32,42 @@
                 </div>
             </nav>
         </header>
+
+        <main>
+            <section>
+                <div class="hero_container  max_width flex_item">
+                    <div class="hero_content">
+                        <h1>Start your Journey as Influencer</h1>
+                        <p class="primary_text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Sem vestibulum sed scelerisque eros. Lectus
+                            faucibus.
+                        </p>
+                        <button class="btn">
+                            Prebook now <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="hero_image">
+                        <div class="circle"></div>
+                        <img src="images/main-camera.png" alt="" />
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <hr>
+                <div class="company_logo max_width">
+                    <img src="logos/Alibaba.svg" alt="">
+                    <img src="logos/Amazon.svg" alt="">
+                    <img src="logos/Daraz.pk Logo.svg" alt="">
+                    <img src="logos/Ebay.svg" alt="">
+                    <img src="logos/Rakuten.svg" alt="">
+                    <img src="logos/Target.svg" alt="">
+                    <img src="logos/Walmart.svg" alt="">
+                </div>
+                <hr>
+            </section>
+
+        </main>
     </body>
 </html>
